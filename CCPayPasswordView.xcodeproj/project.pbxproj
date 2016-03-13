@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A95EC9C1C953FF500F4115E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95EC9B1C953FF500F4115E /* main.m */; };
+		9A95EC9F1C953FF500F4115E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95EC9E1C953FF500F4115E /* AppDelegate.m */; };
+		9A95ECA21C953FF500F4115E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECA11C953FF500F4115E /* ViewController.m */; };
+		9A95ECA51C953FF500F4115E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A95ECA31C953FF500F4115E /* Main.storyboard */; };
+		9A95ECA71C953FF500F4115E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A95ECA61C953FF500F4115E /* Assets.xcassets */; };
+		9A95ECAA1C953FF500F4115E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A95ECA81C953FF500F4115E /* LaunchScreen.storyboard */; };
+		9A95ECB51C953FF600F4115E /* CCPayPasswordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECB41C953FF600F4115E /* CCPayPasswordViewTests.m */; };
+		9A95ECC01C953FF600F4115E /* CCPayPasswordViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECBF1C953FF600F4115E /* CCPayPasswordViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A95ECB11C953FF600F4115E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A95EC8F1C953FF500F4115E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A95EC961C953FF500F4115E;
+			remoteInfo = CCPayPasswordView;
+		};
+		9A95ECBC1C953FF600F4115E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A95EC8F1C953FF500F4115E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A95EC961C953FF500F4115E;
+			remoteInfo = CCPayPasswordView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A95EC971C953FF500F4115E /* CCPayPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPayPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95EC9B1C953FF500F4115E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A95EC9D1C953FF500F4115E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A95EC9E1C953FF500F4115E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A95ECA01C953FF500F4115E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A95ECA11C953FF500F4115E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A95ECA41C953FF500F4115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A95ECA61C953FF500F4115E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A95ECA91C953FF500F4115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A95ECAB1C953FF500F4115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A95ECB01C953FF600F4115E /* CCPayPasswordViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPayPasswordViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95ECB41C953FF600F4115E /* CCPayPasswordViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPayPasswordViewTests.m; sourceTree = "<group>"; };
+		9A95ECB61C953FF600F4115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A95ECBB1C953FF600F4115E /* CCPayPasswordViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPayPasswordViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95ECBF1C953FF600F4115E /* CCPayPasswordViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPayPasswordViewUITests.m; sourceTree = "<group>"; };
+		9A95ECC11C953FF600F4115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A95EC941C953FF500F4115E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A95ECAD1C953FF600F4115E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A95ECB81C953FF600F4115E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A95EC8E1C953FF500F4115E = {
+			isa = PBXGroup;
+			children = (
+				9A95EC991C953FF500F4115E /* CCPayPasswordView */,
+				9A95ECB31C953FF600F4115E /* CCPayPasswordViewTests */,
+				9A95ECBE1C953FF600F4115E /* CCPayPasswordViewUITests */,
+				9A95EC981C953FF500F4115E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A95EC981C953FF500F4115E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A95EC971C953FF500F4115E /* CCPayPasswordView.app */,
+				9A95ECB01C953FF600F4115E /* CCPayPasswordViewTests.xctest */,
+				9A95ECBB1C953FF600F4115E /* CCPayPasswordViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A95EC991C953FF500F4115E /* CCPayPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				9A95EC9D1C953FF500F4115E /* AppDelegate.h */,
+				9A95EC9E1C953FF500F4115E /* AppDelegate.m */,
+				9A95ECA01C953FF500F4115E /* ViewController.h */,
+				9A95ECA11C953FF500F4115E /* ViewController.m */,
+				9A95ECA31C953FF500F4115E /* Main.storyboard */,
+				9A95ECA61C953FF500F4115E /* Assets.xcassets */,
+				9A95ECA81C953FF500F4115E /* LaunchScreen.storyboard */,
+				9A95ECAB1C953FF500F4115E /* Info.plist */,
+				9A95EC9A1C953FF500F4115E /* Supporting Files */,
+			);
+			path = CCPayPasswordView;
+			sourceTree = "<group>";
+		};
+		9A95EC9A1C953FF500F4115E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A95EC9B1C953FF500F4115E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A95ECB31C953FF600F4115E /* CCPayPasswordViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A95ECB41C953FF600F4115E /* CCPayPasswordViewTests.m */,
+				9A95ECB61C953FF600F4115E /* Info.plist */,
+			);
+			path = CCPayPasswordViewTests;
+			sourceTree = "<group>";
+		};
+		9A95ECBE1C953FF600F4115E /* CCPayPasswordViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A95ECBF1C953FF600F4115E /* CCPayPasswordViewUITests.m */,
+				9A95ECC11C953FF600F4115E /* Info.plist */,
+			);
+			path = CCPayPasswordViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A95EC961C953FF500F4115E /* CCPayPasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A95ECC41C953FF600F4115E /* Build configuration list for PBXNativeTarget "CCPayPasswordView" */;
+			buildPhases = (
+				9A95EC931C953FF500F4115E /* Sources */,
+				9A95EC941C953FF500F4115E /* Frameworks */,
+				9A95EC951C953FF500F4115E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCPayPasswordView;
+			productName = CCPayPasswordView;
+			productReference = 9A95EC971C953FF500F4115E /* CCPayPasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A95ECAF1C953FF600F4115E /* CCPayPasswordViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A95ECC71C953FF600F4115E /* Build configuration list for PBXNativeTarget "CCPayPasswordViewTests" */;
+			buildPhases = (
+				9A95ECAC1C953FF600F4115E /* Sources */,
+				9A95ECAD1C953FF600F4115E /* Frameworks */,
+				9A95ECAE1C953FF600F4115E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A95ECB21C953FF600F4115E /* PBXTargetDependency */,
+			);
+			name = CCPayPasswordViewTests;
+			productName = CCPayPasswordViewTests;
+			productReference = 9A95ECB01C953FF600F4115E /* CCPayPasswordViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A95ECBA1C953FF600F4115E /* CCPayPasswordViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A95ECCA1C953FF600F4115E /* Build configuration list for PBXNativeTarget "CCPayPasswordViewUITests" */;
+			buildPhases = (
+				9A95ECB71C953FF600F4115E /* Sources */,
+				9A95ECB81C953FF600F4115E /* Frameworks */,
+				9A95ECB91C953FF600F4115E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A95ECBD1C953FF600F4115E /* PBXTargetDependency */,
+			);
+			name = CCPayPasswordViewUITests;
+			productName = CCPayPasswordViewUITests;
+			productReference = 9A95ECBB1C953FF600F4115E /* CCPayPasswordViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A95EC8F1C953FF500F4115E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Coloring;
+				TargetAttributes = {
+					9A95EC961C953FF500F4115E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9B5QUQ6T98;
+					};
+					9A95ECAF1C953FF600F4115E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9B5QUQ6T98;
+						TestTargetID = 9A95EC961C953FF500F4115E;
+					};
+					9A95ECBA1C953FF600F4115E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9B5QUQ6T98;
+						TestTargetID = 9A95EC961C953FF500F4115E;
+					};
+				};
+			};
+			buildConfigurationList = 9A95EC921C953FF500F4115E /* Build configuration list for PBXProject "CCPayPasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A95EC8E1C953FF500F4115E;
+			productRefGroup = 9A95EC981C953FF500F4115E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A95EC961C953FF500F4115E /* CCPayPasswordView */,
+				9A95ECAF1C953FF600F4115E /* CCPayPasswordViewTests */,
+				9A95ECBA1C953FF600F4115E /* CCPayPasswordViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A95EC951C953FF500F4115E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95ECAA1C953FF500F4115E /* LaunchScreen.storyboard in Resources */,
+				9A95ECA71C953FF500F4115E /* Assets.xcassets in Resources */,
+				9A95ECA51C953FF500F4115E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A95ECAE1C953FF600F4115E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A95ECB91C953FF600F4115E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A95EC931C953FF500F4115E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95ECA21C953FF500F4115E /* ViewController.m in Sources */,
+				9A95EC9F1C953FF500F4115E /* AppDelegate.m in Sources */,
+				9A95EC9C1C953FF500F4115E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A95ECAC1C953FF600F4115E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95ECB51C953FF600F4115E /* CCPayPasswordViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A95ECB71C953FF600F4115E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95ECC01C953FF600F4115E /* CCPayPasswordViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A95ECB21C953FF600F4115E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A95EC961C953FF500F4115E /* CCPayPasswordView */;
+			targetProxy = 9A95ECB11C953FF600F4115E /* PBXContainerItemProxy */;
+		};
+		9A95ECBD1C953FF600F4115E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A95EC961C953FF500F4115E /* CCPayPasswordView */;
+			targetProxy = 9A95ECBC1C953FF600F4115E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A95ECA31C953FF500F4115E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A95ECA41C953FF500F4115E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A95ECA81C953FF500F4115E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A95ECA91C953FF500F4115E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A95ECC21C953FF600F4115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A95ECC31C953FF600F4115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A95ECC51C953FF600F4115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCPayPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Coloring.CCPayPasswordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A95ECC61C953FF600F4115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCPayPasswordView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Coloring.CCPayPasswordView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A95ECC81C953FF600F4115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCPayPasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Coloring.CCPayPasswordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPayPasswordView.app/CCPayPasswordView";
+			};
+			name = Debug;
+		};
+		9A95ECC91C953FF600F4115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCPayPasswordViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Coloring.CCPayPasswordViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPayPasswordView.app/CCPayPasswordView";
+			};
+			name = Release;
+		};
+		9A95ECCB1C953FF600F4115E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCPayPasswordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Coloring.CCPayPasswordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCPayPasswordView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A95ECCC1C953FF600F4115E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCPayPasswordViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Coloring.CCPayPasswordViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCPayPasswordView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A95EC921C953FF500F4115E /* Build configuration list for PBXProject "CCPayPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A95ECC21C953FF600F4115E /* Debug */,
+				9A95ECC31C953FF600F4115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A95ECC41C953FF600F4115E /* Build configuration list for PBXNativeTarget "CCPayPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A95ECC51C953FF600F4115E /* Debug */,
+				9A95ECC61C953FF600F4115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A95ECC71C953FF600F4115E /* Build configuration list for PBXNativeTarget "CCPayPasswordViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A95ECC81C953FF600F4115E /* Debug */,
+				9A95ECC91C953FF600F4115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A95ECCA1C953FF600F4115E /* Build configuration list for PBXNativeTarget "CCPayPasswordViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A95ECCB1C953FF600F4115E /* Debug */,
+				9A95ECCC1C953FF600F4115E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A95EC8F1C953FF500F4115E /* Project object */;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CCPayPasswordView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9A95EC961C953FF500F4115E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A95ECAF1C953FF600F4115E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A95ECBA1C953FF600F4115E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
