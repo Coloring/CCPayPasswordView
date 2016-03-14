@@ -15,6 +15,9 @@
 		9A95ECAA1C953FF500F4115E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A95ECA81C953FF500F4115E /* LaunchScreen.storyboard */; };
 		9A95ECB51C953FF600F4115E /* CCPayPasswordViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECB41C953FF600F4115E /* CCPayPasswordViewTests.m */; };
 		9A95ECC01C953FF600F4115E /* CCPayPasswordViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECBF1C953FF600F4115E /* CCPayPasswordViewUITests.m */; };
+		9A95ECCF1C95402E00F4115E /* CCPayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECCE1C95402E00F4115E /* CCPayPasswordView.m */; };
+		9A95ECD31C95608B00F4115E /* PayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A95ECD11C95608B00F4115E /* PayPasswordView.m */; };
+		9A95ECD41C95608B00F4115E /* PayPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A95ECD21C95608B00F4115E /* PayPasswordView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		9A95ECBB1C953FF600F4115E /* CCPayPasswordViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPayPasswordViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A95ECBF1C953FF600F4115E /* CCPayPasswordViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPayPasswordViewUITests.m; sourceTree = "<group>"; };
 		9A95ECC11C953FF600F4115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A95ECCD1C95402E00F4115E /* CCPayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPayPasswordView.h; sourceTree = "<group>"; };
+		9A95ECCE1C95402E00F4115E /* CCPayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPayPasswordView.m; sourceTree = "<group>"; };
+		9A95ECD01C95608B00F4115E /* PayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPasswordView.h; sourceTree = "<group>"; };
+		9A95ECD11C95608B00F4115E /* PayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPasswordView.m; sourceTree = "<group>"; };
+		9A95ECD21C95608B00F4115E /* PayPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayPasswordView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		9A95EC991C953FF500F4115E /* CCPayPasswordView */ = {
 			isa = PBXGroup;
 			children = (
+				9A95ECD51C95C16900F4115E /* CCPayPasswordView */,
 				9A95EC9D1C953FF500F4115E /* AppDelegate.h */,
 				9A95EC9E1C953FF500F4115E /* AppDelegate.m */,
 				9A95ECA01C953FF500F4115E /* ViewController.h */,
@@ -138,6 +147,18 @@
 				9A95ECC11C953FF600F4115E /* Info.plist */,
 			);
 			path = CCPayPasswordViewUITests;
+			sourceTree = "<group>";
+		};
+		9A95ECD51C95C16900F4115E /* CCPayPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				9A95ECCD1C95402E00F4115E /* CCPayPasswordView.h */,
+				9A95ECCE1C95402E00F4115E /* CCPayPasswordView.m */,
+				9A95ECD01C95608B00F4115E /* PayPasswordView.h */,
+				9A95ECD11C95608B00F4115E /* PayPasswordView.m */,
+				9A95ECD21C95608B00F4115E /* PayPasswordView.xib */,
+			);
+			name = CCPayPasswordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A95ECD41C95608B00F4115E /* PayPasswordView.xib in Resources */,
 				9A95ECAA1C953FF500F4115E /* LaunchScreen.storyboard in Resources */,
 				9A95ECA71C953FF500F4115E /* Assets.xcassets in Resources */,
 				9A95ECA51C953FF500F4115E /* Main.storyboard in Resources */,
@@ -273,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A95ECCF1C95402E00F4115E /* CCPayPasswordView.m in Sources */,
 				9A95ECA21C953FF500F4115E /* ViewController.m in Sources */,
 				9A95EC9F1C953FF500F4115E /* AppDelegate.m in Sources */,
 				9A95EC9C1C953FF500F4115E /* main.m in Sources */,
+				9A95ECD31C95608B00F4115E /* PayPasswordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
