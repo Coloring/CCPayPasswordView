@@ -1,2 +1,2 @@
 # CCPayPasswordView
-简易的输入支付密码Demo
+输入支付密码Demo
